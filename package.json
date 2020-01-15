@@ -1,0 +1,23 @@
+{
+  "name": "clean-cookies-bookmarklet",
+  "version": "1.0.0",
+  "description": "快速清除網站 Cookies",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs --compress --mangle -o dist/clean-cookies-bookmarklet.min.js src/clean-cookies-bookmarklet.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poychang/clean-cookies-bookmarklet.git"
+  },
+  "keywords": [],
+  "author": "Poy Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poychang/clean-cookies-bookmarklet/issues"
+  },
+  "homepage": "https://github.com/poychang/clean-cookies-bookmarklet#readme",
+  "dependencies": {
+    "uglify-js": "^3.0.28"
+  }
+}
